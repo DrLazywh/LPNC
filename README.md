@@ -44,6 +44,6 @@ Organize them in your `dataset root dir` folder as follows:
 |   |-- <RSTPReid>/
 |       |-- imgs
 |       |-- data_captions.json
-
+```
 
 
