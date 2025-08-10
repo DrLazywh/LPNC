@@ -48,20 +48,12 @@ Organize them in your `dataset root dir` folder as follows:
 
 ## 🏋️ Training
 ```bash
-python train.py \
---name iira \
---img_aug \
---batch_size 64 \
---MLM \
---loss_names 'sdm+mlm+id' \
---dataset_name 'CUHK-PEDES' \
---root_dir 'your dataset root dir' \
---num_epoch 60
+bash run.sh
 ```
 
 ## 🧪 Testing
 ```bash
-python test.py --config_file 'path/to/model_dir/configs.yaml'
+python test.py
 ```
 
 ## 🙏 Acknowledgments
