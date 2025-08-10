@@ -57,11 +57,11 @@ python train.py \
 --dataset_name 'CUHK-PEDES' \
 --root_dir 'your dataset root dir' \
 --num_epoch 60
-
+```
 
 ## 🧪 Testing
 ```bash
 python test.py --config_file 'path/to/model_dir/configs.yaml'
-
+```
 
 
