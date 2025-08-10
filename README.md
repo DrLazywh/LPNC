@@ -64,4 +64,10 @@ python train.py \
 python test.py --config_file 'path/to/model_dir/configs.yaml'
 ```
 
+## 🙏 Acknowledgments
+
+Some components of this code implementation are adopted from [IRRA](https://github.com/anosorae/IRRA), [RDE](https://github.com/QinYang79/RDE), and [PromptSG](https://github.com/ YzXian16/PromptSG). We sincerely appreciate their contributions.
+
+
+
 
