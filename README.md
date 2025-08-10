@@ -7,6 +7,9 @@
 - We design a Learnable Prompt-guided Semantic Alignment module that integrates textual and visual representations into pseudo-tokens, ensuring semantic consistency and bridging the modality gap through a prompt-guided cross-attention mechanism.
 - We introduce the \textit k-nearest Neighbor Correction strategy which adaptively re-adjusts retrieval scores based on the \textit k-nearest neighbor query to enhance retrieval performance without extra training.
 
+![LPNC Framework](images/LPNC.png)
+
+
 ## 🚀 Getting Started
 ### 1. Requirements
 ```bash
