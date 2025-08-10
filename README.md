@@ -15,3 +15,33 @@ torchvision >= 0.10.0
 prettytable
 easydict
 ```
+
+
+### 2. Prepare Datasets
+
+Download the CUHK-PEDES dataset from [here](https://github.com/ShuangLI59/Person-Search-with-Natural-Language-Description),  
+ICFG-PEDES dataset from [here](https://github.com/ShuangLI59/Person-Search-with-Natural-Language-Description),  
+and RSTPReid dataset from [here](https://github.com/NjtechCVLab/RSTPReid-Dataset).
+
+Organize them in your `dataset root dir` folder as follows:
+```bash
+|-- your dataset root dir/
+| |-- <CUHK-PEDES>/
+| |-- imgs
+| |-- cam_a
+| |-- cam_b
+| |-- ...
+| |-- reid_raw.json
+|
+| |-- <ICFG-PEDES>/
+| |-- imgs
+| |-- test
+| |-- train
+| |-- ICFG_PEDES.json
+|
+| |-- <RSTPReid>/
+| |-- imgs
+| |-- data_captions.json
+```
+
+
