@@ -12,7 +12,7 @@
 
 ## 🚀 Getting Started
 ### 1. Requirements
-```bash
+```
 pytorch >= 1.9.0
 torchvision >= 0.10.0
 prettytable
@@ -26,7 +26,7 @@ Download the CUHK-PEDES dataset from [here](https://github.com/ShuangLI59/Person
 
 Organize them in your `dataset root dir` folder as follows:
 
-```bash
+```
 |-- your dataset root dir/
 |   |-- <CUHK-PEDES>/
 |       |-- imgs
